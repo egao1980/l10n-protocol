@@ -18,6 +18,23 @@
    #:ensure-l10n-backend
    #:require-capability
 
+   #:backend-make-collator
+   #:backend-collate
+   #:backend-sort-key
+   #:backend-format-number
+   #:backend-format-percent
+   #:backend-format-currency
+   #:backend-format-date
+   #:backend-format-time
+   #:backend-format-datetime
+   #:backend-format-relative-time
+   #:backend-format-list
+   #:backend-parse-number
+   #:backend-parse-date
+   #:backend-locale-downcase
+   #:backend-locale-upcase
+   #:backend-locale-titlecase
+
    ;; collation (ICU Collator)
    #:collator
    #:make-collator
