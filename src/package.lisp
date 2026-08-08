@@ -38,6 +38,9 @@
    ;; collation (ICU Collator)
    #:collator
    #:make-collator
+   #:collator-locale
+   #:collator-strength
+   #:collator-raw
    #:collate
    #:collation-key
    #:sort-key
